@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProviderActivators", "ProviderActivator\ProviderActivators.csproj", "{E7E53C8D-A7C0-437B-B697-CF8D66C90412}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DAF33BFD-133E-4DB7-B43B-46CCAAB86061}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProviderActivator.Tests", "ProviderActivator.Tests\ProviderActivator.Tests.csproj", "{6F3C73EB-4DBA-4401-8D43-210981F418B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4EB07FA7-47B8-41D0-A2A0-8DC31F558BA0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7E53C8D-A7C0-437B-B697-CF8D66C90412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E53C8D-A7C0-437B-B697-CF8D66C90412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E53C8D-A7C0-437B-B697-CF8D66C90412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E53C8D-A7C0-437B-B697-CF8D66C90412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3C73EB-4DBA-4401-8D43-210981F418B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3C73EB-4DBA-4401-8D43-210981F418B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3C73EB-4DBA-4401-8D43-210981F418B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3C73EB-4DBA-4401-8D43-210981F418B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
