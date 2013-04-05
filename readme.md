@@ -1,12 +1,19 @@
-ProviderActivator
+ï»¿ProviderActivator
 ===========
 
-ProviderActivator ‚Í ProvidesHelpers ƒNƒ‰ƒX‚Ì‘ã‘ÖÀ‘•‚ÅAProviderBase / ProviderCollection ‚ÌƒCƒ“ƒXƒ^ƒ“ƒX‰»‚Æ‰Šú‰»‚ğs‚¦‚Ü‚·B
+ProviderActivator ã¯ ProvidesHelpers ã‚¯ãƒ©ã‚¹ã®ä»£æ›¿å®Ÿè£…ã§ã€ProviderBase / ProviderCollection ã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹åŒ–ã¨åˆæœŸåŒ–ã‚’è¡Œãˆã¾ã™ã€‚
 
 ProviderActivator is an alternative implementation of ProvidersHelper for instanciate and intialize ProviderBase / ProviderCollection.
 
-ProvidersHelper ‚Í ASP.NET ‚Ìˆê•”‚Å‚ ‚èASystem.Web ƒAƒZƒ“ƒuƒŠ‚Å’è‹`‚³‚ê‚Ä‚¢‚Ü‚·‚ªAƒvƒƒoƒCƒ_[ƒpƒ^[ƒ“‚ÍƒRƒ“ƒ\[ƒ‹ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚â WindowsƒT[ƒrƒX“™—lX‚ÈÀsŠÂ‹«‚Å•K—v‚Æ‚³‚ê‚Ü‚·B
+ProvidersHelper ã¯ ASP.NET ã®ä¸€éƒ¨ã§ã‚ã‚Šã€System.Web ã‚¢ã‚»ãƒ³ãƒ–ãƒªã§å®šç¾©ã•ã‚Œã¦ã„ã¾ã™ãŒã€ãƒ—ãƒ­ãƒã‚¤ãƒ€ãƒ¼ãƒ‘ã‚¿ãƒ¼ãƒ³ã¯ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚„ Windowsã‚µãƒ¼ãƒ“ã‚¹ç­‰æ§˜ã€…ãªå®Ÿè¡Œç’°å¢ƒã§å¿…è¦ã¨ã•ã‚Œã¾ã™ã€‚
 
 ProvidersHelper is part of ASP.NET declared in "System.Web" assembly, but provider pattern is required any execution environment for example a console application ,Windows Service ,etc. 
 
+ProviderActivator ã¯ NuGet ã‹ã‚‰ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã§ãã¾ã™ã€‚
 
+ProviderActivator can get from NuGet.
+
+http://nuget.org/packages/ProviderActivators/1.0.0.0
+
+ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã ã‚ã†ãŒã€ã‚µãƒ¼ãƒ“ã‚¹ã ã‚ã†ãŒé æ…®ãªããƒ—ãƒ­ãƒã‚¤ãƒ€ãƒ¼ãƒ‘ã‚¿ãƒ¼ãƒ³ã‚’ã‚„ã£ã¦ã­ï¼
+Lets Enjoy Provider Pattern on Console App, Service !
